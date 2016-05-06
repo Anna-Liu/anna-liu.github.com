@@ -6,15 +6,40 @@ p {
 	font-family: calibri
 }
 
-p.text {
+p.text{
 	margin-left: 50px;
 	margin-right: 100px;
 	text-align: justify;
 }
 
-p.footer {
+.footer {
 	text-align: center;
 	font-style: italic;
 	font-size: 13px;
 	font-family: arial;
+}
+
+ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a:link {
+	display: block;
+	padding: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: beige;
+	color: darkgrey;
+}
+
+li a:hover {
+	background-color: tan;
 }
