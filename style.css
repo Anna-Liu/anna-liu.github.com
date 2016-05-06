@@ -1,5 +1,10 @@
 body {
+	text-align: center;
+}
+
+#wrapper {
 	max-width: 1080px;
+	margin: 0 auto;
 }
 
 p {
@@ -7,8 +12,8 @@ p {
 }
 
 p.text{
-	margin-left: 50px;
-	margin-right: 100px;
+	margin-left: 100px;
+	margin-right: 50px;
 	text-align: justify;
 }
 
@@ -19,27 +24,39 @@ p.text{
 	font-family: arial;
 }
 
-ul {
+.nav {
 	list-style-type: none;
-	margin: 5px;
+	margin: 10px;
 	padding: 0px;
 	overflow: hidden;
+	background-color: beige;
+	text-align: center;
 }
 
-li {
-	display: inline;
-	float: left;
+.nav li {
+	display: inline-block;
 }
 
-li a:link {
-	display: block;
-	padding: 5px;
+.nav a:link, a:visited {
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
 	font-size: 20px;
 	text-decoration: none;
-	background-color: beige;
 	color: darkgrey;
+	letter-spacing: 2px;
 }
 
-li a:hover {
-	background-color: tan;
+.nav a:hover {
+	background-color: #ECE7CF;
+	color: white;
 }
+
+.content {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
